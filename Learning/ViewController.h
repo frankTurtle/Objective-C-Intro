@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+// for the label
+@property (strong, nonatomic) IBOutlet UILabel *helloLabel;
+
+// for the textField
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
+// for the button
+- (IBAction)buttonPressed:(id)sender;
 
 @end
 
